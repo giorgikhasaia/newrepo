@@ -1,0 +1,50 @@
+body{background-color: black;
+    text-align: center;
+    
+
+}
+div{background-image: url(https://st2.depositphotos.com/1688971/5367/v/380/depositphotos_53675363-stock-illustration-successful-business-woman.jpg);
+    background-position: center;
+width: 400px;
+height:300px;
+background-repeat: no-repeat;
+margin-left: 400px;
+margin-top: 250px;
+
+}
+
+
+h1{ opacity: 0.6;
+    text-align: right;
+    color: rgba(3, 46, 185, 0.87);
+    width: 385px;
+    background-color: white;
+    padding-top: 5px;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 50px;
+    
+}
+
+#h2{background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 1px;
+    text-align: right;
+    
+
+}
+
+#h3{background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    width: 25%;
+    margin-left: 281px;
+    margin-top: 1px;
+    text-align: right;
+
+}
