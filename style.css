@@ -1,50 +1,50 @@
-body{background-color: black;
-    text-align: center;
-    
-
-}
-div{background-image: url(https://st2.depositphotos.com/1688971/5367/v/380/depositphotos_53675363-stock-illustration-successful-business-woman.jpg);
-    background-position: center;
-width: 400px;
-height:300px;
-background-repeat: no-repeat;
-margin-left: 400px;
-margin-top: 250px;
-
-}
-
-
-h1{ opacity: 0.6;
-    text-align: right;
-    color: rgba(3, 46, 185, 0.87);
-    width: 385px;
+#divflax{display: flex;
     background-color: white;
-    padding-top: 5px;
-    width: 80%;
-    margin-left: 60px;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 20%;
+    max-width: 100%;
     
-}
+    
 
-#h2{background-color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 1px;
-    width: 70%;
-    margin-left: 100px;
-    margin-top: 1px;
-    text-align: right;
-    
 
 }
 
-#h3{background-color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 1px;
+article{text-align: center;
+    background-color:white;
     width: 25%;
-    margin-left: 281px;
-    margin-top: 1px;
-    text-align: right;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-style: solid;
+    border-color: rgb(223, 211, 206);
+    border-width: 0.0001px;
+    padding-top: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    box-shadow:5px 2px black ;
+   
+
+}
+
+#article-2{text-align: center;
+    background-color:rgb(245, 77, 10);
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+    padding-top: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    box-shadow: blue 10px 10px;
+
+
+}
+
+
+
+
+svg{width: 70px;
+    height: 70px;
+    max-width: 100%;
+    max-height: 100%;
 
 }
