@@ -1,0 +1,81 @@
+body{background-color: rgb(245, 237, 237);}
+
+#divmain{margin-top: 15%;
+        justify-content: center;
+    margin-left: 35%;
+    position: relative;
+    background-color: white;
+    width: 350px;
+    height: 580px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+img{border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+position: absolute;
+opacity: 53.5%;
+max-width: 100%;
+}
+
+
+
+#divfirst{background-color: purple;
+    width: 350px;
+    height: 408px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;       
+    position: absolute;
+ }
+
+h2{color: white;
+    left: 110px;
+    position: absolute;
+    bottom: 40px;
+}
+h4{color: thistle;
+    left: 130px;
+    position: absolute;
+    bottom: 20px;
+   
+}
+
+svg{position: absolute;
+    color: white;
+    width: 6%;
+    height: 7%;
+    right: 5%;
+    top: 5%;
+}
+
+#svgfirst{position: absolute;
+    color: white;
+    width: 7%;
+    height: 7%;
+    left: 5%;
+    top: 5%;
+}
+
+#svgsecond{position: absolute;
+    color: red;
+    width: 15%;
+    margin-top: 103%;
+    left: 44%;
+    background-color: white;
+    border-top-left-radius: 261px;
+    border-top-right-radius: 261px;
+    width: 40px;
+ }
+
+#divrow{padding-top: 480px;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.tdclass{padding-left: 10px;
+   padding-right: 15px;
+   color: gray;
+   font-weight: bold;
+}
