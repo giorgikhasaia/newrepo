@@ -1,0 +1,54 @@
+#divfirst{background-color: rgb(245, 70, 99);
+    height: 70px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+
+}
+
+h2{color: white;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 0px;
+    padding-top: 20px;
+    width: 60%;
+    
+    
+}
+
+.spanclass{margin:10px;
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+@media(min-width:773px){
+    #buttom{color:rgb(245, 70, 99) ;}
+
+
+}
+
+
+@media(max-width:792px){
+    body{background-color: blue;}
+    #divright{display: inline-block;
+    flex-wrap: wrap;}
+
+    #buttom{width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.spanclass{margin:10px;
+    color: rgb(245, 70, 99);
+    font-size: 20px;
+ }
+   
+ .spanclass:hover{display: inline-block;
+    color: coral;
+
+ }
+
+    
+}

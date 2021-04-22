@@ -1,0 +1,46 @@
+.divclass{width: 380px;
+    height: 150px;
+    background-color:rgb(13, 130, 226);
+    color: white;
+    display: inline-block;
+    margin:10px;
+    max-width: 100%;
+}
+
+h3{margin-left: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: normal;}
+
+
+
+@media(min-width:1000px){
+
+body{background-color: rgb(71, 255, 117);}
+
+.divclass {width: 30%;
+    min-width: 100px;}
+}
+
+@media(max-width:999px){
+
+    body{background-color: rgb(255, 108, 71);}
+    
+    .divclass {width: 45%;
+        min-width: 30%;}
+    
+    }
+
+    @media(max-width:454px){
+
+        body{background-color: rgb(202, 70, 70);}
+        
+        .divclass {width: 90%;
+            min-width: 30%;}
+        
+        }
+        
+    
+
+
+
