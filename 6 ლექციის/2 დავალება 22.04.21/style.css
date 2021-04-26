@@ -1,0 +1,72 @@
+
+div{
+    background-image: url(https://www.gotobermuda.com/sites/default/files/styles/hero/public/field/image/aerial_bermuda-.jpg?itok=2we26aWO);
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    background-position: center;
+    margin:auto;
+    margin-top: 15%;
+    position:relative;
+    
+    
+}
+
+/* nav{
+    margin-left: 15px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h6{
+    display: none;
+    position: absolute;
+} */
+
+
+/* div:hover{box-shadow: inset  0em 6em 0.9em rgb(104, 104, 172);
+   
+}  */
+
+
+
+
+
+div::before{position:absolute;
+    content:"Biologi Lab.";
+    color: white;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+
+div::after{
+    position: absolute;
+    color: rgb(128, 0, 128);
+    content:"be smart";
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 60px;
+    margin-left: 15px;
+    display: none;
+
+}
+
+div:hover{
+    box-shadow: inset gray 5em;
+    
+
+}
+
+div:hover::after{position: absolute;
+    color: teal;
+    content:"be smart";
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: inline;
+    transition: all 1s;
+    
+} 
