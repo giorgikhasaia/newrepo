@@ -1,0 +1,176 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+#bera-image-id{
+    width: 120px;
+    height: 70px;
+}
+
+
+#nav-ul-id{
+    
+    display: flex;
+    
+}
+
+.nav-li{list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border: none;
+    
+}
+
+.nav-select{
+       border: 0px;
+       
+}
+
+ /* meore nawili, priankadan */
+
+ #prianca-div{display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    
+ }
+
+ #prianca-img-id{
+     width: 550px;
+     height: 500px;
+     max-width: 100%;
+ }
+
+ #hello-bera{font-size: 50px;
+    margin-bottom: 0px;
+    
+ }
+
+ #prianca-span{text-align: center;
+    background-color: beige;
+    height: 220px;
+    width: 500px;
+    max-width: 100%;
+    margin-top: 120px; 
+    border: double #ffffff 20px ;
+    
+ }
+
+ /* grid */
+
+ #grid-main-div{display: flex;
+    justify-content: center;
+
+ }
+
+ #grid-ul-id{
+     display: flex;
+     justify-content: left;
+     margin-left: 139px; 
+     
+ }
+
+ #all-id{
+     background-color: black;
+     color: white;
+ }
+
+ .grid-li-class{
+     list-style: none;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+
+ .grid-img-first{
+     width: 320px;
+     height:325px;
+     max-width: 100%;
+ }
+
+ .grid-img-second{
+    width: 320px;
+    height:325px;
+    max-width: 100%;
+ }
+
+ #middle-img-down{
+     height:370px;
+ }
+
+ .grid-vertical-div{
+     margin: 15px;
+         
+ }
+
+ .grid-last-div{
+     text-align: center;
+     border: rgb(230, 230, 230) 2px solid;
+     margin-bottom: 15px;
+ }
+
+ .grid-h3-class{
+     margin-bottom: 0px;
+ }
+
+ .grid-p-class{
+     margin-top: 5px;
+ }
+
+ /* last grid bottom */
+ 
+ #bottom-grid-main-div{
+    background-color: rgb(226, 224, 224);
+    padding-top: 10px;
+ }
+ 
+ #bottom-last-grid{
+     background-color: rgb(226, 224, 224);
+     display: flex;
+     justify-content: center;
+ }
+
+ #bottom-grid-h2{text-align: center;
+    justify-content: center;
+
+ }
+
+ .bottom-last-grid-end{margin-top: 80px;
+    width: 320px;
+    max-width: 100%;
+    margin: 15px;
+    text-align: center;
+ }
+
+ .bottom-img{
+     max-width: 100%;
+ }
+
+ /* footer */
+
+ #footer-ul{
+     display: flex;
+ }
+
+ footer{
+     display: flex;
+     justify-content: space-around;
+     max-width: 100%;
+     position: relative;
+ }
+
+ .foter-li-class{
+     list-style: none;
+     margin: 15px;
+ }
+
+ i{
+     padding-top: 30px;
+ }
+
+ #up-id{font-size: 20px;
+    position: absolute;
+    justify-content: right;
+
+ }
