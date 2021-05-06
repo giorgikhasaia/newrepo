@@ -1,0 +1,506 @@
+body{/* margin:auto; */ 
+    background-color: rgb(189, 199, 231);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+}
+    
+nav{background-color: #fff;
+    
+}
+
+a{  font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: auto; */
+    width: 1200px;
+    padding: 10px 15px;
+    
+}
+
+.navbar ul{list-style: none;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul:last-child{
+    margin-left:auto;
+}
+
+.navbar ul:last-child li a {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+
+}
+
+.navbar ul:last-child li:first-child a{
+    background-color: #5033fe;
+    border: none;
+    margin-right: 10px;
+    color: white;
+
+}
+
+#navbar-ul-first{
+    margin-left: 30px;
+}
+
+.navbar ul li a {display: inline-block;
+    padding: 15px 30px;
+    
+}
+
+
+.flexbox{
+    display: flex;
+}
+
+@media(max-width:1140px){
+    .flexbox{
+        display: block;
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+    }
+    #navbar-ul-first{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+    .navbar ul li a {display: inline-block;
+        
+    }
+    .navbar ul:last-child li a {
+        width: 100%;
+        margin:15px}
+    .flexbox img{
+        margin: auto;
+        display: flex;
+        padding-top: 30px;
+    }   
+}
+
+
+    /* heder */
+
+    header{
+        position: relative;
+        background-color: rgb(10, 10, 95);
+        background-image: url(https://payze.io/assets/images/header-illustration.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+
+header  h1{margin-top: 60px;
+    color: white;
+    font-size: 50px;
+}
+
+header p{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+
+header a{background-color:#5033fe ;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin-top: 15px;
+}
+
+
+/* header img{
+    position: absolute;
+    margin-left: auto;
+    top: 60px;
+    right: 90px;
+    width: 400px;
+    height: 400px;
+} */
+
+@media(max-widt:750){
+    header img{
+        display: none;
+    }
+}
+
+/* start procesing */
+
+#title-span-div{
+    top: 50px;
+    display: block;
+    margin-top: 100px;
+}
+
+#span-div{
+    position: relative;
+    
+}
+
+#start-span{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+#here-span{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+#span-div-one-payment{
+    display:inline-flex;
+}
+
+#payment1-span{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    line-height: 1.5;
+    border: solid 1px #ccc;
+    padding: 20px;
+    width: 255px;
+    max-width: 100%;
+    
+}
+
+.payment2-span{
+    background-color: white;
+    line-height: 1.5;
+    border: solid 1px #ccc;
+    padding: 20px;
+    width: 255px;
+    max-width: 100%;
+}
+
+#payment3-span{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    line-height: 1.5;
+    border: solid 1px #ccc;
+    padding:20px;
+    width: 255px;
+    max-width: 100%;
+}
+
+#payment1-span:hover{
+    box-shadow: inset #5033fe 2px 5px, inset #5033fe -0px -2px;
+    transition: 0.2s;
+
+}
+
+.payment2-span:hover{
+    box-shadow: inset #5033fe 2px 5px, inset #5033fe -2px -2px  ;
+    transition: 0.2s;
+
+}
+
+#payment3-span:hover{
+    box-shadow: inset #5033fe 0px 5px, inset #5033fe -2px -2px;
+    transition: 0.2s;
+}
+
+/* payment sistem & cards */
+
+#payment-sistem-img{
+    display: flex;
+    /* justify-content:space-around; */
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: blanchedalmond;
+    
+
+}
+.payment-img{
+    justify-content:space-around;   /*  არ მუშაობს და რატომ? */
+    padding: 70px; 
+    height: 40px;
+}
+
+
+/* div-text-center */
+
+#text-center{
+    text-align: center;
+
+}
+
+/*split payment */
+#split-payment-main-div{
+    display: flex;
+    align-items: center;
+
+}
+
+#split-payment-div{
+    display: block;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+
+#split-payment-img-div{
+    width: 50%;
+}
+
+#split-payment-img{
+    width: 80%;
+}
+
+#split-payment-div span{
+    font-size: 50px;
+}
+
+#split-payment-div a {
+    color: blue;
+}
+
+#split-payment-div a:hover{
+    text-decoration: underline;
+}
+
+/*email payment-div */
+
+#email-payment-main-div{
+    display: flex;
+    align-items: center;
+}
+
+#email-payment-img-div{
+    width: 50%;
+}
+
+#email-payment-img-div img {
+    width: 80%;
+    vertical-align: middle;
+}
+
+#email-payment {
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+#email-payment span{
+    font-size: 50px;
+}
+
+#email-payment a {
+    color: blue;
+}
+
+#email-payment a:hover{
+    text-decoration: underline;
+}
+
+/* register naw */
+
+#register-naw-div{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #ccc 0px 2px;
+    padding-bottom: 70px; 
+
+}
+
+#register-naw-div a{background-color:#5033fe ;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin-top: 15px;
+}
+
+/* Our Team  */
+
+#Our-Team-div{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#Our-Team-div-last-div{
+    padding-top: 20px;
+}
+
+/* teams img */
+
+#team-img-main-div{
+    /* display: flex; */
+    display: flex;
+    margin-top: 20px; 
+   
+    
+
+}
+
+#team-img-first-div{
+    
+    background-image: url(https://payze.io/assets/images/team3.jpg);
+    width: 30%;
+    height: 510px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+} 
+
+#team-img-second-div{
+    background-image: url(https://payze.io/assets/images/team1.jpg);
+    width: 70%;
+    height: 510px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+ /* slide img */
+
+ #slide-img-div-one{
+     background-image: url(https://payze.io/assets/images/slider_1.jpg);
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     height: 514px;
+     border-radius: 10px;
+
+ }
+
+ #slide-img-div-two::after{
+    background-image: url(https://payze.io/assets/images/slider_2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 514px;
+    border-radius: 10px;
+ }
+
+ /* bottom cards header */
+
+ #bottom-cards-first-div{
+     text-align: center;
+ }
+
+ #bottom-cards-first-div h1 {
+     font-size: 50px;
+     color: white;
+ }
+
+ #bottom-cards-first-div p{
+     font-size: 20px;
+     color: white;
+ }
+
+
+/* cards */
+
+#cards-main-div{
+    background-color: rgb(3, 22, 78);
+}
+
+
+
+#botom-cards-main-div{
+    display: flex;
+
+}
+
+ .botom-cards-div{
+     width: 33.33%;
+     height: 500px;
+     background-color: white;
+     text-align: center;
+     justify-content: center;
+     border-radius: 10px ;
+    
+ }
+
+ .percent-div{
+     padding-top: 25px;
+ }
+
+ .botom-cards-div p{
+     font-size: 25px;
+     padding-top: 30px;
+
+ }
+
+ .botom-cards-div span{
+    font-size: 70px;
+    font-weight: bolder;
+ }
+
+ .botom-cards-div button{
+     background-color: rgb(14, 165, 14);
+     color: white;
+     font-size: 20px;
+     font-weight: bolder;
+     border-radius: 5px;
+     border: none;
+     width: 80%;
+     height: 15%;
+     margin-top: 70px;
+
+ }
+
+#botom-cards-second-div{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#botom-cards-third-div{
+    background-color: #07012c;
+    color: white;
+}
+
+#botom-cards-third-div p{
+    color:#5033fe
+}
+
+#botom-cards-third-div button{
+    background-color: #5033fe;
+}
+
+/* cards bottom main div */
+#cards-bottom-divs{
+    width: 50%;
+    display: flex;
+
+}
+
+#arrow{
+    margin-top: 32px;
+    width: 25px;
+    height: 25px;
+    background-color: #5033fe;
+    border-radius: 20px;
+   
+}
+
+#cards-bottom-hp h{
+    color: white;
+
+}
