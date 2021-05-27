@@ -1,0 +1,270 @@
+
+@font-face {
+    font-family: nino;
+    src: url('../fonts/bpg_nino_mtavruli_normal.ttf');
+}
+
+@font-face {
+    font-family: bpgarial;
+    src: url('/fonts/bpg_arial_2009.ttf');
+}
+
+ @media (min-width: 1000px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1100px;
+    }
+
+} 
+
+body{
+    font-family: nino;
+    src: url('../fonts/bpg_nino_mtavruli_normal.ttf');
+}
+
+a{
+    text-decoration: none;
+}
+
+.sub-nav{
+    position: absolute;
+    width: 100%;
+    background-color: #6b6b6b;
+    z-index: 99;
+    color: aqua;
+    top: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.langs a{
+    font-size: 15px;
+    font-family: nino;
+    color: #fff;
+  
+
+}
+
+.langs li:not(:last-child) a::before{
+    /* content: '/';  */
+    position: relative;
+    left: 37pxpx;
+}
+
+.langs li:not(:last-child) a{
+    padding-left: 7px;
+}
+
+.langs.list-inline-item{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* menu */
+.col-md-9{
+    left: 0;
+
+}
+
+.menu a{
+    font-size: 15px;
+    font-family: nino;
+    color: #fff;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+
+/* dropdown-item */
+
+
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0; 
+    align-items: center;
+}
+
+#navbar-container{
+    margin-top: 50px;
+    padding:0px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.dropdown:not(:last-child) a {
+    margin-right:20px;
+}
+
+.dropdown img{
+    margin-right: 10px;
+}
+
+.nav-link{
+    font-size: 17px;
+    font-family: nino;
+}
+
+.col-md-3 ul li a{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu a {
+    font-size: 15px;
+    font-family: nino;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.langs li:not(:last-child) a {
+     padding-left: 0px; 
+}
+
+#dog-img{   position: relative;
+    top: -8px;
+    margin-right: 3px;
+}
+
+#carusel-id{
+height: 587px;
+
+}
+
+.dropdown-menu li:not(:first-child){
+border-top:solid rgb(218, 215, 215) 1px;
+
+}
+
+.dropdown-menu::after{
+    content: "";
+    position: absolute;
+    top: -3px;
+    height: 3px;
+    width: 122px;
+    background-color: #df2335;
+}
+
+.dropdown-menu li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 273px;
+    font-family: bpgarial;
+}
+
+.dropdown-menu.show {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+    
+}
+
+.dropdown-menu{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#nav-container::after{                        
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0px;
+    bottom: -2px;
+    color: #ffffff;
+    z-index: 9999;
+
+}
+
+/* carusel-text */
+#carusel-tecst-container{
+    position: relative;
+    top: 190px;
+}
+
+#carusel-text{
+    position: absolute;
+    z-index: 99999;
+    color: green;
+    background-color: rgba(76, 0, 130, 0);
+}
+#carusel-text h5{
+    font-size: 25px;
+    font-family:bpgarial;
+    color: #ffffff;
+    margin-bottom: 17px;
+}
+
+#carusel-text p{
+    font-size: 17px;
+    font-family: bpgarial;
+    color: #ffffff;
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 80px;
+    height: 117px;
+   
+
+}
+
+/* .carousel-control-next {
+    right: -52;
+} */
+
+.carousel-control-prev {
+   left: -52;
+}
+
+#button{
+    margin-top: 22px;
+    font-family: nino;
+    font-size: 17px;
+    color: #ffffff;
+    
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: none;
+    border-color: #b02a37;
+    border-radius: none;
+}
+
+/* footer-container */
+
+footer{
+    background-color: #f5f7ed;
+}
+
+.container span img{
+    border: solid 1px #a3a2a2;
+    width:203px;
+    height: 108px;
+    margin-top: 34px;
+    margin-bottom: 22px;
+    
+}
+.container span:not(:first-child) img{
+    margin-left: 12px;
+    
+}
+
+#pclass{
+    display: flex;
+    justify-content: space-between;
+}
+
